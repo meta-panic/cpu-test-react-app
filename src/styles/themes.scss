@@ -1,0 +1,12 @@
+@use "@carbon/react";
+
+@use '@carbon/styles/scss/themes';
+@use '@carbon/styles/scss/theme';
+
+body {
+  @include theme.theme(themes.$g10);
+
+  &.dark {
+    @include theme.theme(themes.$g90);
+  }
+}

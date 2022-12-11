@@ -1,12 +1,16 @@
 import Routes from './routes';
+
 import { BrowserRouter } from 'react-router-dom';
+import ThemeLayer from './themes';
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <Routes />
-      </BrowserRouter>
+      <ThemeLayer>
+        <BrowserRouter>
+          <Routes />
+        </BrowserRouter>
+      </ThemeLayer>
     </div>
   );
 }

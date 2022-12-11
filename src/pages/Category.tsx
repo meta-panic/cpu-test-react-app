@@ -1,5 +1,7 @@
+import { ThemeToggle } from '../features/ThemeToggle';
+
 const Category = () => {
-  return <>Category</>;
+  return <ThemeToggle />;
 };
 
 export default Category;
